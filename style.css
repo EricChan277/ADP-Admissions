@@ -1,24 +1,60 @@
-.quiz-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+/* Welcome Screen */
 
-.quiz-title {
-    font-size: 6rem;
-    margin: 30px 0 50px 0;
-}
+    .welcome {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
-.button-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 200px;
-}
+    .quiz-title {
+        font-size: 6rem;
+        margin: 30px 0 50px 0;
+    }
 
-.quiz-1,
-.quiz-2 {
-    font-size: 4rem;
-    width: 220px;
-}
+    .quiz-btn-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+    }
+
+    .quiz-select-btn {
+        font-size: 4rem;
+        width: 220px;
+    }
+
+/* Quiz Active Screen */
+
+    .quiz-active {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .score {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        font-size: 4rem;
+    }
+
+    #score-val {
+        margin: 0 20px;
+    }
+    .question {
+        font-size: 8rem;
+        margin: 30px 0 50px 0;
+    }
+    .answer-btns {
+        height: 300px;
+        width: 650px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .answer-select-btn {
+        font-size: 4rem;
+        width: 300px;
+        margin: 10px;
+    }

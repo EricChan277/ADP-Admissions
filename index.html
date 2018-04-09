@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>App Dev Admissions Test</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="quiz-wrapper">
-        <p class="quiz-title">Start</p>
 
-        <div class="button-wrapper">
-            <button class="quiz-1">Quiz 1</button>
-            <button class="quiz-2">Quiz 2</button>  
+    <div class="welcome">
+        <p class="quiz-title">Start</p>
+        <div class="quiz-btn-wrapper">
+            <button class="quiz-select-btn quiz-1">Quiz 1</button>
+            <button class="quiz-select-btn quiz-2">Quiz 2</button>
+        </div>
+    </div>
+
+    <div class="quiz-active">
+        <div class="score"> 
+            Score: <p id="score-val"> 0</p> 
         </div>
 
-        
+        <p class="question">Question</p>
+
+        <div class="answer-btns">
+            <button class="answer-select-btn answer-1">Answer 1</button>
+            <button class="answer-select-btn answer-2">Answer 2</button>
+            <button class="answer-select-btn answer-3">Answer 3</button>
+            <button class="answer-select-btn answer-4">Answer 4</button>
+        </div>
     </div>
-  
+
+
+
+    <footer>
+        <script src="./index.js"></script>
+    </footer>
+
 </body>
+
 </html>

@@ -14,6 +14,8 @@ $(document).ready(function (){
     // Quiz Answer Selectors 
         $('.answer-1').on('click',function () {
             console.log (this);
+            $('.quiz-active').css('display','none');
+            $('.end-screen').css('display','flex');
         })
         $('.answer-2').on('click',function () {
             console.log (this);
@@ -24,4 +26,6 @@ $(document).ready(function (){
         $('.answer-4').on('click',function () {
             console.log (this);
         })
+    
+
 });

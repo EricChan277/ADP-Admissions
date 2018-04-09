@@ -1,0 +1,24 @@
+.quiz-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quiz-title {
+    font-size: 6rem;
+    margin: 30px 0 50px 0;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.quiz-1,
+.quiz-2 {
+    font-size: 4rem;
+    width: 220px;
+}
